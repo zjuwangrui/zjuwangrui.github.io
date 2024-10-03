@@ -1,0 +1,67 @@
+
+
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    position: fixed; /* 固定导航栏 */
+    top: 0;
+    width: 100%; /* 导航栏宽度占满页面 */
+    z-index: 1000; /* 确保导航栏在所有元素上方 */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* 避免导航栏遮挡内容 */
+body {
+    padding-top: 60px; /* 页面内容向下偏移，避免被导航栏遮挡 */
+    background-color: rgb(135, 206, 235);
+    
+    margin-top:50px;
+    
+}
+#welcome{
+    
+    position: relative;
+    bottom: 30px;
+    font-size: 3em;
+    text-align: center
+}
+
+    
+#qsc_logo{
+    text-align: center
+}
+#blessing{
+    font-family:KaiTi ;
+    margin-top:50px;
+    color:rgb(255, 255, 255) ;
+    font-size:2em;
+    height: 20px;
+    text-align: center
+    
+
+}
+
+
