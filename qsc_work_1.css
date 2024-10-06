@@ -1,16 +1,17 @@
 
-
-
 nav {
+    
     background-color: rgba(97,111,13,255);
     padding: 10px;
-    position: fixed; /* 固定导航栏 */
+    position: fixed; 
     top: 0;
-    width: 100%; /* 导航栏宽度占满页面 */
+    width: 100%; 
     z-index: 1000; /* 确保导航栏在所有元素上方 */
 }
 
 nav ul {
+    display: flex;
+    flex-direction: row;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -18,6 +19,7 @@ nav ul {
 }
 
 nav ul li {
+    
     float: left;
     position: relative;
     width: max-content;
@@ -63,13 +65,26 @@ body {
 #qsc_logo{
     text-align: center
 }
-#blessing{
+#blessing {
     font-family:KaiTi ;
     margin-top:50px;
     color:rgb(255, 255, 255) ;
     font-size:2em;
     height: 20px;
-    text-align: center
+    text-align: center;
+    animation:move 2s linear 4s infinite alternate-reverse;
+    animation-play-state: running;
+}
+#blessing  :hover{
+    animation-play-state: paused;
+}
+@keyframes move {
+    0% {
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(50px);
+    }
 }
 
 
