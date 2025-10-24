@@ -1,11 +1,11 @@
 {
   "greeting": "Hiya",
   "name": "灿若星辰的浙大人",
-  "greetingText": "笨小灯很开心在浙里遇见你们！",
-  "wishText": "希望我们这几天相处愉快 ;)",
-  "imagePath": "img/my_high_school_photo.jpg",
+  "greetingText": "笨小灯很开心在浙里遇见你！",
+  "wishText": "希望你来到浙里每天都很快乐！ ;)",
+  "imagePath": "img\\zhu.jpg",
   "text1": "今天是我们认识的第一天!!! :D",
-  "textInChatBox": "希望你能喜欢这份见面礼",
+  "textInChatBox": "生日快乐!!!",
   "sendButtonLabel": "发送",
   "text2": "That's what I was going to do.",
   "text3": "But then I stopped.",
@@ -16,8 +16,9 @@
   "smiley": ":)",
   "bigTextPart1": "S",
   "bigTextPart2": "O",
-  "wishHeading": "很高兴认识你们!",
-  "outroText": "现在告诉我你们开不开心?",
-  "replayText": "或者点一下可爱的我，如果你们想再康一遍！",
+  "wishHeading": "生日快乐!!!",
+  "outroText": "现在告诉我你开不开心?",
+  "replayText": "或者点一下可爱的我，如果你想再康一遍！",
   "outroSmiley": ":)"
 }
+
